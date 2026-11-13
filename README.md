@@ -1,10 +1,10 @@
 # Lighthouse report
 
-Generated 2026-11-13 08:00 UTC from commit `d75e717`.
+Generated 2026-11-13 14:57 UTC from commit `483d50e`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
-| /index.html | 🟢 100 | 🟢 94 | 🟢 96 | 🟢 90 |
+| /index.html | 🟢 100 | 🟢 95 | 🟢 96 | 🟢 90 |
 
 🟢 90–100 good · 🟠 50–89 needs improvement · 🔴 0–49 poor
 
@@ -14,7 +14,7 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 
 - **Browser errors were logged to the console**
 - **Touch targets do not have sufficient size or spacing.**
-- **Eliminate render-blocking resources** (Est savings of 150 ms)
+- **Eliminate render-blocking resources** (Est savings of 0 ms)
 - **Document does not have a meta description**
 - **Network dependency tree**
 - **Render blocking requests**
