@@ -44,11 +44,11 @@ li {
 }
 
 button {
-  color: #a9706b;
+  color: #e8d3d0;
   background-color: #541f2b;
 }
 
 button:hover {
-  color: #541f2b;
-  background-color: #a9706b;
+  color: #32131c;
+  background-color: #e8d3d0;
 }
