@@ -1,50 +1,53 @@
 :root {
-  --red300: #c23354;
-  --red400: #992942;
-  --red500: #6f1d30;
-  --red600: #591826;
-  --red700: #20090e;
+  --red300: #b94b65;
+  --red400: #96364f;
+  --red500: #74283d;
+  --red600: #541f2b;
+  --red700: #32131c;
 
-  --accent300: #e2cdcb;
-  --accent400: #cfaeaa;
-  --accent500: #bd8e89;
-  --accent600: #ab6f69;
-  --accent700: #905651;
+  --accent300: #e8d3d0;
+  --accent400: #d5b5b0;
+  --accent500: #c0928c;
+  --accent600: #a9706b;
+  --accent700: #89534f;
 
-  --neutral400: #fbf5ee;
-  --neutral500: #f9ede1;
-  --neutral600: #f6e6d5;
-  --neutral700: #e8c091;
+  --neutral300: #fbf8f3;
+  --neutral400: #f4ede2;
+  --neutral500: #e9ddcd;
+  --neutral600: #d8c4aa;
+  --neutral700: #bba184;
 }
 body {
-  background-color: var(--neutral400);
+  background-color: #f4ede2;
 }
-
 h1 {
-  color: var(--red600);
+  color: #32131c;
 }
 
 h2,
-h3 {
-  color: #591826;
+h3,
+h4 {
+  color: #541f2b;
 }
 
 p {
-  font-size: 15px;
-  color: #20090e;
-  font-weight: bold;
+  color: #74283d;
 }
 
 a {
   color: #20090e;
 }
 
-button {
+li {
   color: #20090e;
-  background-color: #cfaeaa;
+}
+
+button {
+  color: #541f2b;
+  background-color: #a9706b;
 }
 
 button:hover {
-  color: #cfaeaa;
-  background-color: #20090e;
+  color: #a9706b;
+  background-color: #541f2b;
 }
