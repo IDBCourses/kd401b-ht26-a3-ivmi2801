@@ -16,38 +16,56 @@
   --neutral500: #e9ddcd;
   --neutral600: #d8c4aa;
   --neutral700: #bba184;
+
+  --font-heading: "Great Vibes", Georgia, serif;
+  --font-body: "Roboto Flex", sans-serif;
+  --size-body: 1rem;
+  --size-h1: 3rem;
+  --size-h2: 1.4rem;
+  --size-a: 0.8rem;
+  --size-p: 0.9rem;
+  --leading-body: 1.5;
+  --measure: 65ch;
 }
-body {
-  background-color: #f4ede2;
-}
+
 h1 {
-  color: #32131c;
+  color: var(--red700);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--size-h1);
+}
+
+body {
+  background-color: var(--neutral400);
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--leading-body);
 }
 
 h2,
 h3,
 h4 {
-  color: #541f2b;
+  color: var(--red600);
+  font-size: var(--size-h2);
 }
 
 p {
-  color: #74283d;
+  color: var(--red500);
+  font-size: var(--size-p);
 }
 
-a {
-  color: #20090e;
-}
-
-li {
-  color: #20090e;
+nav > ul > li > a {
+  font-size: var(--size-a);
+  color: var(--red700);
 }
 
 button {
-  color: #541f2b;
-  background-color: #c0928c;
+  color: var(--red600);
+  background-color: var(--accent500);
 }
 
 button:hover {
-  color: #c0928c;
-  background-color: #541f2b;
+  color: var(--accent500);
+  background-color: var(--red600);
 }

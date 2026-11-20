@@ -16,39 +16,56 @@
   --neutral500: #e9ddcd;
   --neutral600: #d8c4aa;
   --neutral700: #bba184;
-}
-body {
-  background-color: #32131c;
+
+  --font-heading: "Great Vibes", Georgia, serif;
+  --font-body: "Roboto Flex", sans-serif;
+  --size-body: 1rem;
+  --size-h1: 3rem;
+  --size-h2: 1.4rem;
+  --size-a: 0.8rem;
+  --size-p: 0.9rem;
+  --leading-body: 1.5;
+  --measure: 65ch;
 }
 
 h1 {
-  color: #f4ede2;
+  color: var(--neutral400);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--size-h1);
+}
+
+body {
+  background-color: var(--red700);
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--leading-body);
 }
 
 h2,
 h3,
 h4 {
-  color: #d8c4aa;
+  color: var(--neutral600);
+  font-size: var(--size-h2);
 }
 
 p {
-  color: #bba184;
+  color: var(--neutral700);
+  font-size: var(--size-p);
 }
 
-a {
-  color: #e8d3d0;
-}
-
-li {
-  color: #e8d3d0;
+nav > ul > li > a {
+  font-size: var(--size-a);
+  color: var(--accent300);
 }
 
 button {
-  color: #a9706b;
-  background-color: #541f2b;
+  color: var(--accent600);
+  background-color: var(--red600);
 }
 
 button:hover {
-  color: #541f2b;
-  background-color: #a9706b;
+  color: var(--red600);
+  background-color: var(--accent600);
 }
