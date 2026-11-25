@@ -60,6 +60,12 @@ nav > ul > li > a {
   color: var(--red700);
 }
 
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
 button {
   color: var(--red600);
   background-color: var(--accent500);
